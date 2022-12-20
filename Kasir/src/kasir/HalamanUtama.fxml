@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="500.0" styleClass="mainFxmlClass" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kasir.HalamanUtamaController">
+   <children>
+      <Button mnemonicParsing="false" style="-fx-background-color: transparant;" />
+      <Button fx:id="btnPenjualan" layoutX="141.0" layoutY="154.0" mnemonicParsing="false" onAction="#openPenjualan" prefHeight="33.0" prefWidth="91.0" styleClass="button2" text="Penjualan" />
+      <Button fx:id="btnProduk" layoutX="268.0" layoutY="154.0" mnemonicParsing="false" onAction="#openProduk" prefHeight="33.0" prefWidth="91.0" styleClass="button2" text="Produk" />
+      <Label layoutX="167.0" layoutY="79.0" text="Program Kasir" textFill="#fec5bb">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="mainFxmlClass" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kasir.EditPenjualanController">
+   <children>
+      <Button mnemonicParsing="false" style="-fx-background-color: transparant;" />
+      <Button fx:id="btnEditProduk" layoutX="391.0" layoutY="236.0" mnemonicParsing="false" onAction="#EditProduk" prefHeight="30.0" prefWidth="70.0" styleClass="button2" text="Tambah" />
+      <Button fx:id="btnEditPenjualankeDataPenjualan" layoutX="41.0" layoutY="239.0" mnemonicParsing="false" onAction="#EditPenjualanKembaliDataPenjualan" style="-fx-background-color: transparant;" text="Kembali" textFill="#fec5bb" />
+      <Label layoutX="158.0" layoutY="20.0" text="Edit Data Penjualan" textFill="#fec5bb">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="154.0" layoutY="106.0" prefHeight="27.0" prefWidth="274.0" />
+      <TextField layoutX="154.0" layoutY="73.0" prefHeight="27.0" prefWidth="274.0" />
+      <TextField layoutX="154.0" layoutY="138.0" prefHeight="27.0" prefWidth="274.0" />
+      <TextField layoutX="154.0" layoutY="171.0" prefHeight="27.0" prefWidth="274.0" />
+      <Text layoutX="72.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id Penjualan" />
+      <Text layoutX="72.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kuantitas" />
+      <Text layoutX="72.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harga" />
+      <Text layoutX="72.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diskon" />
+      <Button layoutX="325.0" layoutY="239.0" mnemonicParsing="false" style="-fx-background-color: transparant;" text="Hapus" textFill="#fec5bb" />
+   </children>
+</AnchorPane>

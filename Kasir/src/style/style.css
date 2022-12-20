@@ -1,0 +1,47 @@
+.mainFxmlClass {
+    -fx-background-color: #FFFFFF;
+}
+
+.button{
+    -fx-background-color: #FBC4AB;
+    -fx-background-radius: 0em;
+}
+
+.button:hover{
+    -fx-background-color: #FFDAB9;
+}
+
+.button:pressed{
+    -fx-background-color: #FFDAB9;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button2{
+    -fx-background-color: #FBC4AB;
+    -fx-background-radius: 3em;
+}
+
+.button2:hover{
+    -fx-background-color: #FFDAB9;
+}
+
+.button2:pressed{
+    -fx-background-color: #FFDAB9;
+}
+
+.button2:focused{
+    -fx-background-color: #FBC4AB;
+    -fx-border-width: 0px 0px 0px 0px;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #FBC4AB;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+
